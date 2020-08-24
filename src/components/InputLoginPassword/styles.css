@@ -1,0 +1,36 @@
+.inputPassword-block{
+    position:relative;
+}
+
+.inputLogin-block + .inputPassword-block{
+    margin-top: 0px;
+}
+
+.inputPassword-block label {
+    font-size:1.4rem;
+}
+
+.inputPassword-block input{
+    width: 100%;
+    height: 5.6rem;
+    margin-bottom: 24px;
+    background: var(--color-input-background);
+    border: 0.5px solid var(--color-line-in-white);
+    border-radius: 0 0 10px 10px;
+    outline: 0;
+    padding: 0 1.6rem; 
+    font: 1.6rem Archivo;
+
+}
+
+.inputPassword-block:focus-within::after{
+    width: calc(100%+3.2rem);
+    height: 2px;
+    content: '';
+    background: var(--color-primary-light);
+    position: absolute;
+    left: 1.6rem;
+    right: 1.6rem;
+    bottom: 0;
+
+}

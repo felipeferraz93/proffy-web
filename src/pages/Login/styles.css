@@ -1,0 +1,126 @@
+#page-login{
+    width: 100vw;
+    height: 100vh;    
+    
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    color: var(--color-text-in-primary);
+}
+#page-login .logo-area{
+    width: 55%;
+    max-width: 65rem;
+    height: 100%;
+    background-color: var(--color-primary); 
+    display:flex;
+    justify-content: center;
+    /* margin-bottom: 3.2rem; */
+    text-align: left;
+    align-items: center;
+    background-image: url("../../assets/images/background.svg");
+   
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    background-size: 70%;
+    background-position: center; 
+       
+}
+
+
+#page-login .logo-container-login{
+    position: absolute;        
+}
+
+
+#page-login  .logo-container-login h2{
+    font-weight: 500;
+    font-size: 3.0rem;
+    line-height: 4.6rem;
+    margin-top: 0.1rem;  
+    
+}
+
+
+#page-login .logo-container-login > img{        
+    width: 30rem; 
+       
+}
+
+#page-login main{    
+    width: 45%;
+    max-width: 74rem;
+    height: 100%;
+    border-radius: 0.8rem;
+    margin: -3.2rem auto 3.2rem;
+    padding-top:6.4rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#page-login main .form-login-container{
+    width: 60%;
+    margin-top:8rem;
+    
+}
+
+#page-login main .form-login-container h3{
+    height: 400;
+    color: black;
+    font: bold 36px poppins;
+    margin-bottom: 20px;;
+}
+
+#page-login main .form-login-container form{
+    width: 100%;
+}
+
+
+#page-login main .form-login-container form fieldset{
+    border:0;    
+}
+
+#page-login main .form-login-container form button{
+    width: 100%;
+    height: 4.0rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top:3.2rem;
+}
+
+#page-login main .form-login-container form button:hover{
+    background: var(--color-secundary-dark);
+}
+
+#page-login main .form-login-container form fieldset .save-password{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 1.5rem;
+    
+
+}
+
+#page-login main .signup{
+    position: relative;
+    margin-top:6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+        
+}
+
+#page-login main .signup .msg-free{    
+    justify-self: end;
+    
+}
